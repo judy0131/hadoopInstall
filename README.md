@@ -2,16 +2,17 @@
 auto deploy hadoop in ubuntu
 
 first, edit deploy.sh
-	1£ºmodify NODES, the first node is namenode		 	 		   NODES=(10.0.98.59 10.0.98.63)
+	1. modify NODES, the first node is namenode --> NODES=(10.0.98.59 10.0.98.63)
 
-	2£ºmodify PASS (password of each node)
+	2. modify PASS (password of each node)
 
 	3: modify HADOOP_VERSION
-	   support 2.6.0 2.7.0 2.7.1,you can download others version tar.gz, 	   put it into ¡®package¡¯ folder,and modify HADOOP_VERSION
+	   support 2.6.0 2.7.0 2.7.1,
+	   you can download others version tar.gz, put it into "package" folder,and modify HADOOP_VERSION
 
-	4: modify REPLICA_NUM£¨hdfs replication number£©
+	4: modify REPLICA_NUM(hdfs replication number)
 
-second£¬execute deploy.sh
+second, execute deploy.sh
 
 	1. "./deploy.sh" deploy hadoop cluster
 	2. "./deploy.sh common" just deploy hadoop common package

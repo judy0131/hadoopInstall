@@ -1,5 +1,5 @@
 # hadoopInstall
-auto deploy hadoop in ubuntu
+auto deploy hadoop in ubuntu12.04 or ubuntu14.04
 
 first, edit deploy.sh
 

@@ -20,6 +20,3 @@ second, execute deploy.sh
 	2. "./deploy.sh common" just deploy hadoop common package
 	3. "./deploy.sh hadoop" just deploy hadoop package,before this,
 	   "./deploy.sh" or "./deploy.sh common " must be executed
-
-ps：you need to download jdk-7u80-linux-x64.tar.gz and hadoop-2.7.1.tar.gz, and put them into "package" file
-    because I can not put large file to github

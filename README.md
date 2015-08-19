@@ -20,3 +20,8 @@ second, execute deploy.sh
 	2. "./deploy.sh common" just deploy hadoop common package
 	3. "./deploy.sh hadoop" just deploy hadoop package,before this,
 	   "./deploy.sh" or "./deploy.sh common " must be executed
+
+ps: maybe you can not download protobuf-2.5.0.tar.gz, jdk-7u80-linux-x64.tar.gz and hadoop-2.7.1.tar.gz with git.
+    you should install git lfs(https://help.github.com/articles/versioning-large-files/) and then git clone
+    if there is also errors while install hadoop, download those package by yourself.
+    
